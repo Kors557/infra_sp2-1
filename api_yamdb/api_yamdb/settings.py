@@ -12,11 +12,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'secretkey'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-<<<<<<< HEAD
 DEBUG = True
-=======
-DEBUG = False
->>>>>>> 3fd775c7130b4ada7e600e518f68aa0b4b051b87
 
 ALLOWED_HOSTS = ['*']
 
@@ -77,7 +73,6 @@ WSGI_APPLICATION = 'api_yamdb.wsgi.application'
 
 DATABASES = {
     'default': {
-<<<<<<< HEAD
         'ENGINE': os.getenv('DB_ENGINE', 'django.db.backends.postgresql'),
         'NAME': os.getenv('DB_NAME', 'postgres'),
         'USER': os.getenv('POSTGRES_USER', 'postgres'),
@@ -86,16 +81,6 @@ DATABASES = {
         'PORT': os.getenv('DB_PORT', '5432')
     }
 } 
-=======
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.getenv('DB_NAME', default='postgres'),
-        'USER': os.getenv('POSTGRES_USER', default='postgres'),
-        'PASSWORD': os.getenv('POSTGRES_PASSWORD', default='postgres'),
-        'HOST': os.getenv('DB_HOST', default='db'),
-        'PORT': os.getenv('DB_PORT', default='5432')
-    }
-}
->>>>>>> 3fd775c7130b4ada7e600e518f68aa0b4b051b87
 
 
 # Password validation
@@ -147,23 +132,13 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-<<<<<<< HEAD
 #STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static/'),)
-=======
-# STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static/'),)
->>>>>>> 3fd775c7130b4ada7e600e518f68aa0b4b051b87
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 MEDIA_URL = '/media/'
 
-<<<<<<< HEAD
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media') 
 
 AUTH_USER_MODEL = 'reviews.User'
 
-=======
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-
-AUTH_USER_MODEL = 'reviews.User'
->>>>>>> 3fd775c7130b4ada7e600e518f68aa0b4b051b87
