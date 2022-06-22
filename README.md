@@ -98,11 +98,10 @@ docker-compose exec web python manage.py createsuperuser
 docker-compose exec web python manage.py loaddata fixtures.json
 ```  
 
-<<<<<<< HEAD
 Теперь проект доступен по адресу http://localhost/. При этом номер порта указывать уже не надо: умный nginx принимает запросы на стандартном порте и перенаправляет их в приложение.
 
 ## Автор
- **Timershin Ruslan** - [Timerlan-87]https://github.com/Timerlan-87/
+ **Timershin Ruslan** - [Timerlan-87](https://github.com/Timerlan-87/)
 
 ## Лицензии
 
