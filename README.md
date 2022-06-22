@@ -102,11 +102,8 @@ docker-compose exec web python manage.py loaddata fixtures.json
 Теперь проект доступен по адресу http://localhost/. При этом номер порта указывать уже не надо: умный nginx принимает запросы на стандартном порте и перенаправляет их в приложение.
 
 ## Автор
- **Timershin Ruslan** - https://github.com/Timerlan-87/
+ **Timershin Ruslan** - [Timerlan-87]https://github.com/Timerlan-87/
 
 ## Лицензии
 
 Этот проект использует MIT License - see the [LICENSE.md](LICENSE.md)
-=======
-Теперь проект доступен по адресу http://localhost/. При этом номер порта указывать уже не надо: умный nginx принимает запросы на стандартном порте и перенаправляет их в приложение. 
->>>>>>> 3fd775c7130b4ada7e600e518f68aa0b4b051b87
